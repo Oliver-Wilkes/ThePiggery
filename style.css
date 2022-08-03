@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    /* position: absolute; */
+    border: 2px solid black;
+    display: flex;
+    gap: 10px;
+    list-style: none;
+    justify-content: flex-end;
+    /* margin-right: 50px; */
+}
+
+li {
+    /* display: flex; */
+    /* position: absolute; */
+    text-decoration: none;
+    justify-content: flex-end;
+    margin-right: 4rem;
+    padding: 0.5rem;
+}
+
+li:hover {
+    cursor: pointer;
+    color: aqua;
+    transition: 600ms;
+}
+
