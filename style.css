@@ -1,3 +1,4 @@
+/* UNIVERSAL STYLING */
 * {
     margin: 0;
     padding: 0;   
@@ -6,6 +7,16 @@
 
 
 /* List and Navbar styling */
+ 
+navbar {
+    display: flex;
+    
+
+}
+
+.navbar-brand {
+    margin-left: 1.5rem;
+}
 
 ul {
     /* position: absolute; */
@@ -13,7 +24,8 @@ ul {
     /* display: flex; */
     /* gap: 10px; */
     /* list-style: none; */
-    /* justify-content: flex-end; */
+    align-items: flex-end;
+    justify-content: end;
     /* margin-right: 50px; */
 }
 
@@ -26,8 +38,8 @@ li {
     /* padding: 0.5rem; */
 } 
 
-/* 
-li:hover {
+
+/* li:hover {
     cursor: pointer;
     color: aqua;
     transition: 600ms;
@@ -49,3 +61,31 @@ li:hover {
 
   }
 
+
+
+
+
+
+
+
+
+
+  /* PAGE SPECIFIC STYLING */
+
+    /* HOME */
+.homeContentBox1 {
+    /* display: flex; */
+    /* position: absolute; */
+    margin: auto;
+    margin-top: 10vh;
+    border: 1px solid black;
+    width: 40vw;
+    height: 30vh;
+}
+
+
+    /* LOCATION */
+
+
+
+    /* BOOKING */
