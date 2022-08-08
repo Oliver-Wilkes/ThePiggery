@@ -73,6 +73,8 @@ li:hover {
     /* HOME */
 body {
     background-image:url('Assets/countryside.jpg') ;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .homeContentBox1 {
