@@ -49,7 +49,9 @@ li:hover {
     display: flex;
     height: 60vh;
     /* The height is 400 pixels */
-    width: 100%;
+    width: 70%;
+    margin: auto;
+    top: 2rem;
     /* The width is the width of the web page */
     /* align-items: center; */
     /* justify-content: center; */
@@ -69,6 +71,10 @@ li:hover {
   /* PAGE SPECIFIC STYLING */
 
     /* HOME */
+body {
+    background-image:url('Assets/cobblestone.jpg') ;
+}
+
 .homeContentBox1 {
     /* display: flex; */
     /* position: absolute; */
@@ -77,6 +83,8 @@ li:hover {
     border: 1px solid black;
     width: 40vw;
     height: 30vh;
+    background-color: white;
+    border-radius: 15px;
 }
 
 
