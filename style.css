@@ -9,6 +9,14 @@ body {
     background-image:url('Assets/countryside.jpg') ;
     background-repeat: no-repeat;
     background-size: cover;
+
+
+
+
+    animation: fadeInAnimation ease 1.5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+
     /* justify-content: center; */
     /* align-items: center; */
 }
@@ -41,13 +49,12 @@ li {
 
 
 li:hover {
-    /* cursor: pointer; */
-    /* color: aqua; */
-    /* transition: 600ms; */
-    /* text-decoration: underline; */
+    cursor: pointer;
+    color: aqua;
+    transition: 600ms;
+    text-decoration: underline;
     /* transform: scaleY(0); */
-    /* transition: all 0.3s ease-in-out; */
-
+    animation: fade;
 }
 
 
@@ -144,7 +151,7 @@ text-align: center;
     height: 60vh;
     width: 70%;
     margin: auto;
-    top: 3rem;
+    top: 6rem;
     border-radius: 30px;
    
     /* align-items: center; */
@@ -160,9 +167,17 @@ text-align: center;
     background-color: aliceblue;
     border: 1px solid black;
     margin: auto;
-    margin-top: 6rem;
+    margin-top: 12rem;
     width: 30%;
     padding: 2rem;
     border-radius: 15px;
     text-align: center;
     }
+
+    @keyframes fadeInAnimation {
+        0% {
+            opacity: 0;
+        }
+        100% {
+            opacity: 1;
+        }
