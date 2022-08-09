@@ -62,7 +62,7 @@ li:hover {
 
 /* Footer Styling */
 .footer {
-    margin-top: 460px;
+margin-top: 460px;
 width: 100%;
 height: 4rem;
 background-color:aliceblue ;
@@ -71,6 +71,9 @@ bottom: 0;
 text-align: center;
 }
 
+h6 {
+    margin-top: 20px !important;
+}
 
 
             /* PAGE SPECIFIC STYLING */
@@ -88,7 +91,7 @@ text-align: center;
     /* display: flex; */
     /* position: absolute; */
     margin: auto;
-    margin-top: 10vh;
+    margin-top: 6vh;
     /* border: 1px solid black; */
     width: 40vw;
     height: 30vh;
@@ -101,7 +104,7 @@ text-align: center;
 .homeContentBox2{
     display: inline-flex;
     justify-content: space-evenly;
-    margin-top: 5vh;
+    margin-top: 6vh;
     /* border: 1px solid black; */
     width: 100%;
     height: 35vh;
@@ -114,7 +117,6 @@ text-align: center;
 }
 
 .card {
-    
 }
 
                 /* BOOKING */
@@ -151,7 +153,7 @@ text-align: center;
     height: 60vh;
     width: 70%;
     margin: auto;
-    top: 6rem;
+    top: 3rem;
     border-radius: 30px;
    
     /* align-items: center; */
@@ -165,11 +167,11 @@ text-align: center;
 .words {
     /* display: flex; */
     background-color: aliceblue;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     margin: auto;
-    margin-top: 12rem;
+    margin-top: 9.5rem;
     width: 30%;
-    padding: 2rem;
+    padding: 1.5rem 2rem;
     border-radius: 15px;
     text-align: center;
     }
