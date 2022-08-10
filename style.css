@@ -38,24 +38,61 @@ ul {
     /* margin-right: 50px; */
 }
 
+
 li {
     /* display: flex; */
     /* position: absolute; */
     /* text-decoration: none; */
     /* justify-content: flex-end; */
-    margin-left: 4rem;
+    margin-left: 2.8rem;
     /* padding: 0.5rem; */
 } 
 
 
 li:hover {
     cursor: pointer;
-    color: aqua;
-    transition: 600ms;
+    /* color: aqua; */
+    
     text-decoration: underline;
-    /* transform: scaleY(0); */
+    /* transform: scaleX(0); */
     animation: fade;
+    transition: 600ms;
+   
+    /* background-color: black;
+    border-radius: 15px;
+    color: bisque; */
 }
+
+
+
+
+
+/* trying to get a bar to appear like in portfolio under nav elements when hovered */
+li:before 
+{
+    /* content: ""; */
+  /* position: absolute; */
+  /* width: 100%; */
+  /* height: 2px; */
+  /* bottom: 0; */
+  /* left: 0; */
+  /* background-color: #fff; */
+  /* visibility: hidden; */
+  /* transform: scaleX(0); */
+  /* transition: all 0.3s ease-in-out; */
+}
+
+li:hover:before {
+    /* visibility: visible; */
+  /* transform: scaleX(1); */
+}
+
+li {
+    /* text-decoration: none; */
+    /* color: white; */
+  }
+
+
 
 
 
@@ -94,11 +131,12 @@ h6 {
     margin-top: 6vh;
     /* border: 1px solid black; */
     width: 40vw;
-    height: 30vh;
+    height: 32vh;
     background-color: white;
     border-radius: 15px;
     text-align: center;
     padding: 2rem;
+    overflow-y: auto;
 }
 
 .homeContentBox2{
@@ -107,10 +145,11 @@ h6 {
     margin-top: 6vh;
     /* border: 1px solid black; */
     width: 100%;
-    height: 35vh;
+    min-height: 30vh;
     /* background-color: aliceblue; */
     border-radius: 15px;
     text-align: center;
+    /* overflow-y: hidden; */
     
     /* padding: 2rem; */
     
@@ -120,9 +159,9 @@ h6 {
     padding: 10px;
 }
 
-.card-text-1 {
+/* .card-text-1 {
     
-}
+} */
 
                 /* BOOKING */
 
@@ -155,7 +194,7 @@ h6 {
 
 #map {
     /* display: flex; */
-    height: 60vh;
+    height: 65vh;
     width: 70%;
     margin: auto;
     top: 3rem;
@@ -174,7 +213,7 @@ h6 {
     background-color: aliceblue;
     /* border: 1px solid black; */
     margin: auto;
-    margin-top: 9.5rem;
+    margin-top: 9rem;
     width: 30%;
     padding: 1.5rem 2rem;
     border-radius: 15px;

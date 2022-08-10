@@ -11,5 +11,8 @@ const map = new google.maps.Map(document.getElementById("map"), {
   const marker = new google.maps.Marker({
     position: Piggery,
     map: map,
+
     
   });
+
+  
