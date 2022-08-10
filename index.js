@@ -4,7 +4,7 @@ const Piggery = { lat: 51.191490, lng: -2.636926 };
 const map = new google.maps.Map(document.getElementById("map"), {
   zoom: 18,
   center: Piggery,
-  mapTypeId: 'satellite'
+  mapTypeId: 'hybrid'
 }); 
 
 
