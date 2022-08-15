@@ -27,6 +27,72 @@ body {
     margin-left: 1.5rem;
 }
 
+ul {
+    /* position: absolute; */
+    /* border: 2px solid black; */
+    /* display: flex; */
+    /* gap: 10px; */
+    /* list-style: none; */
+    /* align-items: flex-end; */
+    /* justify-content: end; */
+    /* margin-right: 50px; */
+}
+
+
+li {
+    /* justify-content: flex-end; */
+    /* margin-left: 2.8rem; */
+
+    /* display: flex; */
+    /* position: absolute; */
+    /* text-decoration: none; */
+    /* padding: 0.5rem; */
+} 
+
+
+li:hover {
+    /* cursor: pointer; */
+    /* text-decoration: underline; */
+    /* animation: fade; */
+    /* transition: 600ms; */
+   
+    /* background-color: black;
+    border-radius: 15px;
+    color: bisque; */
+}
+
+
+
+
+
+/* trying to get a bar to appear like in portfolio under nav elements when hovered */
+li:before 
+{
+    /* content: ""; */
+  /* position: absolute; */
+  /* width: 100%; */
+  /* height: 2px; */
+  /* bottom: 0; */
+  /* left: 0; */
+  /* background-color: #fff; */
+  /* visibility: hidden; */
+  /* transform: scaleX(0); */
+  /* transition: all 0.3s ease-in-out; */
+}
+
+li:hover:before {
+    /* visibility: visible; */
+  /* transform: scaleX(1); */
+}
+
+li {
+    /* text-decoration: none; */
+    /* color: white; */
+  }
+
+
+
+
 
 
 
@@ -51,7 +117,7 @@ body {
     display: inline-flex;
   }
   
-  .nav h3 {
+  .nav h4 {
     position: relative;
     border-radius: 5px;
     padding: 0.5rem 1rem;
@@ -61,14 +127,14 @@ body {
     
   }
   
-  .nav h3:hover {
+  .nav h4:hover {
     cursor: pointer;
     background-color: #00adb5;
     color: white;
     transition: 400ms;
   }
   
-  .nav h3:before {
+  .nav h4:before {
     content: "";
     position: absolute;
     width: 100%;
@@ -82,7 +148,7 @@ body {
     
   }
   
-  .nav h3:hover:before {
+  .nav h4:hover:before {
     visibility: visible;
     transform: scaleX(1);
   }
