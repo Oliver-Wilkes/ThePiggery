@@ -163,17 +163,6 @@ li {
     text-decoration: none;
 }
 
-a:visited {
-    text-decoration: none;
-}
-
-a:hover {
-    text-decoration: none;
-}
-
-a:active {
-    text-decoration: none;
-}
 
 
 
@@ -199,7 +188,7 @@ a:active {
 
 /* Footer Styling */
 .footer {
-margin-top: 460px;
+/* margin-top: 440px; */
 width: 100%;
 height: 3rem;
 background-color:aliceblue ;
@@ -218,7 +207,7 @@ h6 {
              /* HOME */
 
 .index {
-    background-image:url('Assets/countryside.jpg') ;
+    background-image:url('Assets/Wellesley.jpg') ;
     background-repeat: no-repeat;
     background-size: cover;
     
@@ -228,7 +217,7 @@ h6 {
     /* display: flex; */
     /* position: absolute; */
     margin: auto;
-    margin-top: 6vh;
+    margin-top: 14vh;
     /* border: 1px solid black; */
     width: 40vw;
     height: 32vh;
@@ -239,21 +228,6 @@ h6 {
     overflow-y: auto;
 }
 
-.homeContentBox2{
-    display: inline-flex;
-    justify-content: space-evenly;
-    margin-top: 6vh;
-    /* border: 1px solid black; */
-    width: 100%;
-    min-height: 30vh;
-    /* background-color: aliceblue; */
-    border-radius: 15px;
-    text-align: center;
-    /* overflow-y: hidden; */
-    
-    /* padding: 2rem; */
-    
-}
 
 .card-text {
     padding: 10px;
@@ -284,6 +258,40 @@ h6 {
     
 
 }
+
+                /* FACILITIES */
+
+.facilitiesHeader {
+    width: 50%;
+    /* height: 6rem; */
+    padding: 40px;
+    background-color: whitesmoke;
+    border-radius: 15px;
+    margin: auto;
+    margin-top: 150px;
+    text-align: center;
+    
+}
+
+
+
+
+.facilitiesContentBox1{
+    display: inline-flex;
+    justify-content: space-evenly;
+    margin-top: 15vh;
+    /* border: 1px solid black; */
+    width: 100%;
+    min-height: 30vh;
+    /* background-color: aliceblue; */
+    border-radius: 15px;
+    text-align: center;
+    /* overflow-y: hidden; */
+    
+    /* padding: 2rem; */
+    
+}
+
 
     
                 /* LOCATION */
@@ -340,7 +348,7 @@ h6 {
 
     /* Media Queries for smaller screen sizes */
     @media (max-width:1001px) {
-        .homeContentBox2 {
+        .facilitiesContentBox1 {
             display: block;
             align-items: center;
         }
