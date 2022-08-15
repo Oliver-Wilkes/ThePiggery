@@ -1,0 +1,361 @@
+            /* UNIVERSAL STYLING */
+* {
+    margin: 0;
+    padding: 0;   
+}
+
+
+body {
+    background-image:url('Assets/Wellesley.jpg') ;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+
+
+    animation: fadeInAnimation ease 1s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+
+/* List and Navbar styling */
+
+.navbar-brand {
+    margin-left: 1.5rem;
+}
+
+ul {
+    /* position: absolute; */
+    /* border: 2px solid black; */
+    /* display: flex; */
+    /* gap: 10px; */
+    /* list-style: none; */
+    /* align-items: flex-end; */
+    /* justify-content: end; */
+    /* margin-right: 50px; */
+}
+
+
+li {
+    /* justify-content: flex-end; */
+    /* margin-left: 2.8rem; */
+
+    /* display: flex; */
+    /* position: absolute; */
+    /* text-decoration: none; */
+    /* padding: 0.5rem; */
+} 
+
+
+li:hover {
+    /* cursor: pointer; */
+    /* text-decoration: underline; */
+    /* animation: fade; */
+    /* transition: 600ms; */
+   
+    /* background-color: black;
+    border-radius: 15px;
+    color: bisque; */
+}
+
+
+
+
+
+/* trying to get a bar to appear like in portfolio under nav elements when hovered */
+li:before 
+{
+    /* content: ""; */
+  /* position: absolute; */
+  /* width: 100%; */
+  /* height: 2px; */
+  /* bottom: 0; */
+  /* left: 0; */
+  /* background-color: #fff; */
+  /* visibility: hidden; */
+  /* transform: scaleX(0); */
+  /* transition: all 0.3s ease-in-out; */
+}
+
+li:hover:before {
+    /* visibility: visible; */
+  /* transform: scaleX(1); */
+}
+
+li {
+    /* text-decoration: none; */
+    /* color: white; */
+  }
+
+
+
+
+
+
+
+  a:hover {
+    text-decoration: none !important ;
+  }
+  
+  li {
+    width: 5vw;
+    list-style: none;
+  }
+  
+  .nav {
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 0.5vh;
+    margin-right: 1vh;
+    color: #00adb5;
+    margin-left: 1rem;
+    border-radius: 10px;
+    display: inline-flex;
+  }
+  
+  .nav h4 {
+    position: relative;
+    border-radius: 5px;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    color: black;
+    margin-right: 20px;
+    
+  }
+  
+  .nav h4:hover {
+    cursor: pointer;
+    background-color: #00adb5;
+    color: white;
+    transition: 400ms;
+  }
+  
+  .nav h4:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: black;
+    visibility: hidden;
+    transform: scaleX(0);
+    transition: all 0.4s ease-in-out;
+    
+  }
+  
+  .nav h4:hover:before {
+    visibility: visible;
+    transform: scaleX(1);
+  }
+  
+  #nav {
+    text-decoration: none;
+    color: white;
+  }
+
+
+  a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Footer Styling */
+.footer {
+margin-top: 460px;
+width: 100%;
+height: 3rem;
+background-color:aliceblue ;
+position: fixed;
+bottom: 0;
+text-align: center;
+}
+
+h6 {
+    margin-top: 14px !important;
+}
+
+
+            /* PAGE SPECIFIC STYLING */
+
+             /* HOME */
+
+.index {
+    background-image:url('Assets/Wellesley.jpg') ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.homeContentBox1 {
+    /* display: flex; */
+    /* position: absolute; */
+    margin: auto;
+    margin-top: 6vh;
+    /* border: 1px solid black; */
+    width: 40vw;
+    height: 32vh;
+    background-color: white;
+    border-radius: 15px;
+    text-align: center;
+    padding: 2rem;
+    overflow-y: auto;
+}
+
+.homeContentBox2{
+    display: inline-flex;
+    justify-content: space-evenly;
+    margin-top: 6vh;
+    /* border: 1px solid black; */
+    width: 100%;
+    min-height: 30vh;
+    /* background-color: aliceblue; */
+    border-radius: 15px;
+    text-align: center;
+    /* overflow-y: hidden; */
+    
+    /* padding: 2rem; */
+    
+}
+
+.card-text {
+    padding: 10px;
+}
+
+/* .card-text-1 {
+    
+} */
+
+                /* BOOKING */
+
+#placeholder { 
+    /* border: 1px solid white;
+    width: 50px;
+    height: 50px; */
+
+
+    margin: auto;
+    margin-top: 10vh;
+    border: 1px solid black;
+    width: 40vw;
+    height: 70vh;
+    background-color: white;
+    border-radius: 15px;
+    text-align: center;
+    padding-top: 300px;
+    
+    
+
+}
+
+    
+                /* LOCATION */
+
+
+
+/* Map Styling */
+
+#map {
+    /* display: flex; */
+    height: 65vh;
+    width: 70%;
+    margin: auto;
+    top: 3rem;
+    border-radius: 30px;
+   
+    /* align-items: center; */
+    /* justify-content: center; */
+
+
+  }
+
+/* Word box styling */
+
+.words {
+    /* display: flex; */
+    background-color: aliceblue;
+    /* border: 1px solid black; */
+    margin: auto;
+    margin-top: 80px;
+    
+    width: 30%;
+    padding: 1.5rem 2rem;
+    border-radius: 15px;
+    text-align: center;
+    }
+
+
+    /* a.nav-link {
+        margin-right: 200px;
+    } */
+
+
+    @keyframes fadeInAnimation {
+        0% {
+            opacity: 0;
+        }
+        100% {
+            opacity: 1;
+        }
+
+    }
+
+
+    /* Media Queries for smaller screen sizes */
+    @media (max-width:1001px) {
+        .homeContentBox2 {
+            display: block;
+            align-items: center;
+        }
+
+        .card {
+            margin: auto;
+            margin-bottom: 4rem;
+        }
+
+    }
+
+    @media (max-width:680px) {
+        
+        .words {
+            width: 60%;
+        }
+        
+    }
