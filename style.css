@@ -139,10 +139,21 @@ h6 {
              /* HOME */
 
 .index {
-    background-image:url('Assets/Wellesley.jpg') ;
-    background-repeat: no-repeat;
-    background-size: cover;
+    /* background-image:url('Assets/Wellesley.jpg') ; */
+    /* background-repeat: no-repeat; */
+    /* background-size: cover; */
     
+
+    background: url(Assets/Wellesley.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+
+
+
+
 }
 
 .homeContentBox1 {
@@ -296,6 +307,20 @@ h6 {
         
         .words {
             width: 60%;
+        }
+        
+    }
+
+    @media (max-width:540px) {
+        .nav {
+            justify-content: center;
+        }
+        .nav h4 {
+            /* margin-left: 2px; */
+            margin: 0 6px;
+            /* margin: auto; */
+            /* margin: 0; */
+            padding: 0;
         }
         
     }
