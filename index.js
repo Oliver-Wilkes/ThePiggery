@@ -15,3 +15,10 @@ const map = new google.maps.Map(document.getElementById("map"), {
     
   });
 
+
+
+  // Bootstap carousel function for project images
+$('#carousel-1').carousel({
+  interval: false,
+  ride: false
+})

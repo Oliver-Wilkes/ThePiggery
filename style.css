@@ -47,6 +47,7 @@ body {
     margin-left: 1rem;
     border-radius: 10px;
     display: inline-flex;
+    /* background-color: whitesmoke; */
   }
   
   .nav h4 {
@@ -56,6 +57,7 @@ body {
     text-decoration: none;
     color: black;
     margin-right: 20px;
+
     
   }
   
@@ -308,3 +310,57 @@ h6 {
         }
         
     }
+
+
+
+
+    /* Carousel styling */
+    .d-block {
+        object-fit: contain;
+        margin: auto;
+        margin-top: 200px;
+        /* margin-bottom: 200px; */
+      }
+      
+      .carousel-item img {
+        width: 45vw !important;
+        min-height: 50vh;
+        height: auto;
+        max-height: 350px;
+        margin-bottom: 6vh;
+      }
+
+      .projects {
+        width: fit-content;
+      
+        padding: 0 100px 50px;
+      }
+      
+      .projects-section-container {
+        display: flex;
+        position: relative;
+        margin: auto;
+        /* border: 5px solid blue; */
+        /* margin-top: 60vh; */
+      
+        align-items: center;
+        justify-content: center;
+      }
+
+
+      .carousel-caption {
+        /* animation: fadeInAnimation ease 2s; */
+        /* animation-iteration-count: 1; */
+        /* animation-fill-mode: forwards; */
+
+
+        
+      }
+
+      .carousel-control-prev {
+        padding-left: 100px;
+      }
+
+      .carousel-control-next {
+        padding-right: 100px;
+      }
