@@ -327,7 +327,7 @@ h6 {
         min-height: 50vh;
         height: auto;
         max-height: 350px;
-        margin-bottom: 6vh;
+        /* margin-bottom: 6vh; */
       }
 
       .projects {
@@ -352,15 +352,19 @@ h6 {
         /* animation: fadeInAnimation ease 2s; */
         /* animation-iteration-count: 1; */
         /* animation-fill-mode: forwards; */
-
-
         
       }
 
       .carousel-control-prev {
         padding-left: 100px;
+        margin-top: 100px;
       }
 
       .carousel-control-next {
         padding-right: 100px;
+        margin-top: 100px;
+      }
+
+      #carousel-1 {
+        margin-bottom: 200px;
       }
