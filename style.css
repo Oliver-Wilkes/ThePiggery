@@ -158,8 +158,8 @@ h6 {
 }
 
 
-.card-text {
-    padding: 0;
+div.card {
+  color: black;
 }
 
 /* .card-text-1 {
