@@ -129,8 +129,8 @@ h6 {
     /* background-repeat: no-repeat; */
     /* background-size: cover; */
     
-
-    background: url(Assets/Wellesley.jpg) no-repeat center center fixed; 
+/* background styling to make image cover everything!! */
+    /* background: url(Assets/Wellesley.jpg) no-repeat center center fixed;  */
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -165,6 +165,8 @@ div.card {
 p.card-text {
   color: black;
 }
+
+
 
 /* .card-text-1 {
     
