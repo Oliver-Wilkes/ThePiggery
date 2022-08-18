@@ -130,7 +130,7 @@ h6 {
     /* background-size: cover; */
     
 /* background styling to make image cover everything!! */
-    /* background: url(Assets/Wellesley.jpg) no-repeat center center fixed;  */
+    /* background: url(Assets/Wellesley.jpg) no-repeat center center fixed; */
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
