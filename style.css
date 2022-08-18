@@ -162,6 +162,10 @@ div.card {
   color: black;
 }
 
+p.card-text {
+  color: black;
+}
+
 /* .card-text-1 {
     
 } */
